@@ -1,41 +1,37 @@
-console.log ('Hello')
 
-let day1= 0
-let day2= 4
-let month1= 0
-let month2= 9
-let year1=1
-let year2=9
-let year3=8
-let year4=6
 
 let c1 = day1+ day2+ month1 + month2 + year1 + year2+ year3 + year4
 
+if (year1 < 2) {
+
 const a=2;
 let c2=c1-a;
-console.log (c1)
-console.log (c2)
-
-let b1= (c1%10); 
+let b1= (c1%10); // остаток от деления
 let b3 = (c1-b1);
-console.log (b3)
 let b6 = (b3/10)
-console.log (b6)
-console.log (b1)
-
-let b4= b1+b6
-console.log (b4)
-
+let b4= b1+b6;
 let d1= (c2%10); 
 let d3 = (c2-d1);
-console.log (d3)
-let d6 = (d3/10)
-console.log (d6)
-console.log (d1)
+let d6 = (d3/10);
+let d4= d1+d6;
 
-let d4= d1+d6 ;
-console.log (d4)
+console.log ( b6, b1, b4, d6, d1, d4)
 
 
+} else {
+    
+const a=19;
+let f2=c1+a;
+let g1= (c1%10); 
+let g3 = (c1-g1);
+let g6 = (g3/10);
+let g4= g1+g6;
+let e1= (f2%10); 
+let e3 = (f2-e1);
+let e6 = (e3/10);
+let e4= e1+e6 ;
 
+console.log ( g6, g1, g4, e6, e1,e4)
+
+}
 
