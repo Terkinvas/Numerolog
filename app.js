@@ -1,6 +1,20 @@
+console.log ('Hello')
+
+let day1= 2
+let day2= 9
+let month1= 0
+let month2= 9
+let year1=1
+let year2=9
+let year3=9
+let year4=8
+
+console.log(day1,day2,month1,month2,year1,year2,year3,year4)
+
 
 
 let c1 = day1+ day2+ month1 + month2 + year1 + year2+ year3 + year4
+console.log (c1)
 
 if (year1 < 2) {
 
